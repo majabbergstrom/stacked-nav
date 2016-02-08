@@ -1,0 +1,9 @@
+html {
+	box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Dosis", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
