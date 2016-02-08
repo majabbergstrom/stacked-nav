@@ -7,3 +7,22 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+.navi {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.navi 
+
+.navi a {
+  display: inline-block;
+  background-color: #9a816d;
+  color: #9a816d;
+}
+
+.navi a:hover {
+  background-color: #3795437;
+  color: #9a816d;
