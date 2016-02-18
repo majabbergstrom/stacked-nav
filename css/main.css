@@ -1,28 +1,43 @@
 html {
-	box-sizing: border-box;
-  background-color: #fff;
+  box-sizing: border-box;
+  background-color: #efeee9;
   font-family: "Dosis", sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-.navi {
+body {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-align: center;
 }
 
-.navi 
-
-.navi a {
-  display: inline-block;
-  background-color: #9a816d;
-  color: #9a816d;
+h1 {
+  color: #561e05;
+  text-align: center;
 }
 
-.navi a:hover {
-  background-color: #3795437;
-  color: #9a816d;
+.links li {
+  display: block;
+  margin: auto;
+  max-width: 20em;
+  background-color: #9a816d;
+  border: 2px solid #725640;
+}
+
+.links a {
+  display: block;
+  padding: 0.5em;
+  background-color: #9a816d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-color: #795437;
+  color: #fff;
+}
